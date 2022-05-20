@@ -1,0 +1,518 @@
+{
+    "grocerydata":[
+  
+            {
+                  "id":0,
+                  "name":"Cabbage",
+                  "image":"https://www.freepngimg.com/thumb/categories/2970.png",
+                  "quantity":"1 kg",
+                  "price": 30,
+                  "offer":20,
+                  "type":"vegetables",
+                  "isStockAvailable":5
+                  
+              },
+              {
+                "id":1,
+                  "name":"Capsicum",
+                  "image":"https://starpng.com/public/uploads/preview/green-capsicumtransparent-png-image-101577170510t80cnpvukt.png",
+                  "quantity":"1 kg",
+                  "price": 50,
+                  "offer":15,
+                  "type":"vegetables",
+                  "isStockAvailable":1
+                  
+              },
+              {
+                "id":2,
+                  "name":"Garlic",
+                  "image":"https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
+                  "quantity":"500 g",
+                  "price": 20,
+                  "offer":20,
+                  "type":"vegetables",
+                  "isStockAvailable":9
+                
+              },
+              {
+                "id":3,
+                  "name":"Beetroot",
+                  "image":"https://pngimg.com/uploads/beet/beet_PNG28.png",
+                  "quantity":"1 kg",
+                  "price": 20,
+                  "offer":10,
+                  "type":"vegetables",
+                  "isStockAvailable":1
+                 
+              },
+              {
+                "id":4,
+                  "name":"Tomatoes",
+                  "image":"https://e7.pngegg.com/pngimages/256/163/png-clipart-papua-new-guinea-tomato-vegetable-tomato-red-tomato-illustration-natural-foods-food.png",
+                  "quantity":"1 kg",
+                  "price": 5,
+                  "offer": 20,
+                  "type":"vegetables",
+                  "isStockAvailable":4
+              },
+              {
+                "id":5,
+                  "name":"Celeriac",
+                  "image":"https://w7.pngwing.com/pngs/441/626/png-transparent-celeriac-leaf-celery-vegetable-celtuce-herb-vegetable-leaf-vegetable-food-recipe.png",
+                  "quantity":"1 kg",
+                  "price": 5,
+                  "offer":10,
+                  "type":"vegetables",
+                  "isStockAvailable":3
+              },
+              {
+                "id":6,
+                  "name":"Carrots",
+                  "image":"https://www.freepngimg.com/thumb/categories/2971.png",
+                  "quantity":"1 kg",
+                  "price": 60,
+                  "offer": 20,
+                  "type":"vegetables",
+                  "isStockAvailable":0
+              },
+              {
+                "id":7,
+                  "name":"Onions",
+                  "image":"https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
+                  "quantity":"1 Kg",
+                  "price": 80,
+                  "offer":20,
+                  "type":"vegetables",
+                  "isStockAvailable":0
+              },
+              {
+                "id":8,
+                  "name":"Potatoes",
+                  "image":"https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
+                  "quantity":"1 kg",
+                  "price": 80,
+                  "offer":13,
+                  "type":"vegetables",
+                  "isStockAvailable":0
+              },
+
+
+   
+                {
+                  "id":9,
+                  "name" : "Apple",
+                  "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"fruit",
+                  "isStockAvailable":2
+                },
+              
+                {
+                  "id":11,
+                  "name" : "Grapes",
+                  "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+                  "quantity":"1 kg",
+                  "price" : 45,
+                  "offer":15,
+                  "type":"fruit",
+                  "isStockAvailable":3
+                },
+                {
+                  "id":12,
+                  "name" : "Pineapple",
+                  "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+                  "quantity":"1 kg",
+                  "price" : 200,
+                  "offer":20,
+                  "type":"fruit",
+                  "isStockAvailable":0
+                },
+  
+                {
+                  "id":13,
+                  "name" : "Baby corn",
+                  "image" : "https://w7.pngwing.com/pngs/525/849/png-transparent-yellow-corn-illustration-maize-corn-flakes-corn-starch-cornmeal-food-golden-corn-golden-frame-nutrition-cooking.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"exoticsVegs",
+                  "isStockAvailable":3
+                },
+                {
+                    "id":14,
+                    "name" : "Lettuce",
+                    "image" : "https://e7.pngegg.com/pngimages/930/640/png-clipart-selective-focus-of-lettuce-lettuce-sandwich-butterhead-lettuce-vegetable-salad-food-lettuce-leaf-vegetable-superfood-thumbnail.png",
+                    "quantity":"500 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":6
+                  },
+                  {
+                    "id":15,
+                    "name" : "Asparagus",
+                    "image" : "https://www.kindpng.com/picc/m/474-4749754_asparagus-png-file-asparagus-png-transparent-png.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":9
+                  },
+                  {
+                    "id":16,
+                    "name" : "Broccoli",
+                    "image" : "https://pngimg.com/uploads/broccoli/small/broccoli_PNG72970.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":10
+                  },
+                  {
+                    "id":17,
+                    "name" : "Chinese cabbage",
+                    "image" : "https://mangobazaar.in/image/cache/catalog/Exotic%20vegetables/chinese%20cabbage-600x600.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":4
+                  },
+                  {
+                    "id":18,
+                    "name" : "Colored capsicum",
+                    "image" : "https://www.seekpng.com/png/detail/801-8018143_tri-colour-capsicum-red-yellow-green-capsicum.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":6
+                  },
+                  {
+                    "id":19,
+                    "name" : "Avocado",
+                    "image" : "https://e7.pngegg.com/pngimages/299/573/png-clipart-avocado-avocado.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":0
+                  },
+                  {
+                    "id":20,
+                    "name" : "bunching Onion",
+                    "image" : "https://toppng.com/uploads/preview/bengard-ranch-green-onions-green-onions-11563623664ud23ngyigt.png",
+                    "quantity":"250 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"exoticsVegs",
+                    "isStockAvailable":0
+                  },
+   
+
+
+                {
+                  "id":21,
+                  "name" : "Organic Potato",
+                  "image" : "https://image.similarpng.com/very-thumbnail/2020/06/Fresh-organic-potatoes-premium-image-PNG.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"organicVeg",
+                  "isStockAvailable":2
+                },
+                {
+                    "id":22,
+                    "name" : "Organic Onion",
+                    "image" : "https://w7.pngwing.com/pngs/863/73/png-transparent-organic-food-red-onion-organic-red-onions-food-onion-magenta-thumbnail.png",
+                    "quantity":"500 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":4
+                  },
+                  {
+                    "id":23,
+                    "name" : "Organic Chilli",
+                    "image" : "https://png.pngitem.com/pimgs/s/15-151259_green-chili-peppers-png-image-green-chilli-png.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":4
+                  },
+                
+                  {
+                    "id":25,
+                    "name" : "Organic Tomato",
+                    "image" : "https://www.seekpng.com/png/detail/437-4376176_free-png-red-tomatoes-png-images-transparent-tomato.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":7
+                  },
+                  {
+                    "id":24,
+                    "name" : "Organic Broccoli",
+                    "image" : "https://pngroyale.com/wp-content/uploads/2022/02/Organic-Broccoli-PNG-Image-png-768x768.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":5
+                  },
+                  {
+                    "id":26,
+                    "name" : "Organic Capsicum",
+                    "image" : "https://www.seekpng.com/png/full/253-2534389_pepper-capsicum-capsicum-vegetable.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":6
+                  },
+                  {
+                    "id":27,
+                    "name" : "Organic Musk Melon",
+                    "image" : "https://e7.pngegg.com/pngimages/354/662/png-clipart-cantaloupe-organic-food-melon-fruit-honeydew-melon-food-dried-fruit.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":0
+                  },
+                  {
+                    "id":28,
+                    "name" : "Organic Cauliflower",
+                    "image" : "https://w7.pngwing.com/pngs/603/695/png-transparent-cauliflower-broccoli-organic-food-chowder-vegetable-broccoli-leaf-vegetable-soup-food-thumbnail.png",
+                    "quantity":"250 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"organicVeg",
+                    "isStockAvailable":0
+                  },
+    
+                {
+                  "id":29,
+                  "name" : "Raw Mango",
+                  "image" : "https://p.kindpng.com/picc/s/693-6939617_transparent-green-mango-png-png-download.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"seasonalFruit",
+                  "isStockAvailable":3
+                },
+                {
+                  "id":46,
+                  "name" : "Methi Sprouts",
+                  "image" : "https://w7.pngwing.com/pngs/761/681/png-transparent-fenugreek-indian-cuisine-herb-spice-graphy-seeds-miscellaneous-food-photography-thumbnail.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"freshCutSprouts",
+                  "isStockAvailable":4
+                },
+               
+                  {
+                    "id":31,
+                    "name" : "Kiran Watermelon",
+                    "image" : "https://e7.pngegg.com/pngimages/191/208/png-clipart-watermelon-root-muskmelon-seed-watermelon-food-melon-thumbnail.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalFruit",
+                    "isStockAvailable":4
+                  },
+                  {
+                    "id":32,
+                    "name" : "Striped Muskmelon",
+                    "image" : "https://w7.pngwing.com/pngs/515/462/png-transparent-muskmelon-honeydew-juice-cantaloupe-galia-melon-hami-melon-cantaloupe-food-melon-fruit.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalFruit",
+                    "isStockAvailable":4
+                  },
+                  {
+                    "id":33,
+                    "name" : "Totapuri Mango",
+                    "image" : "https://w7.pngwing.com/pngs/824/573/png-transparent-alphonso-mango-mangifera-indica-totapuri-juice-mango-natural-foods-food-orange.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalFruit",
+                    "isStockAvailable":4
+                  },
+                  {
+                    "id":34,
+                    "name" : "Sindhura Mango",
+                    "image" : "https://www.gallafoods.com/wp-content/uploads/2016/10/sindhura.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalFruit",
+                    "isStockAvailable":0
+                  },
+      
+                {
+                  "id":35,
+                  "name" : "Bottle Gourd",
+                  "image" : "https://www.kindpng.com/picc/m/741-7418651_transparent-gourd-png-bottle-gourd-images-png-png.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"seasonalVegs",
+                  "isStockAvailable":4
+                },
+                {
+                    "id":36,
+                    "name" : "Cucumber",
+                    "image" : "https://pngimg.com/uploads/cucumber/cucumber_PNG12602.png",
+                    "quantity":"500 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":5
+                  },
+                  {
+                    "id":37,
+                    "name" : "White Onions",
+                    "image" : "https://toppng.com/uploads/preview/white-onion-png-small-white-onio-11563149732pzbplkrbap.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":6
+                  },
+                  {
+                    "id":38,
+                    "name" : "Pumpkin",
+                    "image" : "https://w7.pngwing.com/pngs/43/981/png-transparent-pumpkin-pumpkin-pumpkin-natural-foods-food-orange-thumbnail.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":6
+                  },
+                  {
+                    "id":39,
+                    "name" : "Spinach",
+                    "image" : "https://pngimg.com/uploads/spinach/spinach_PNG33.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":8
+                  },
+                  {
+                    "id":40,
+                    "name" : "Green Chillies",
+                    "image" : "https://w7.pngwing.com/pngs/588/395/png-transparent-green-chili-chili-pepper-chili-con-carne-vegetarian-cuisine-vegetable-capsicum-fresh-chili-natural-foods-food-cayenne-pepper.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":0
+                  },
+                  {
+                    "id":41,
+                    "name" : "Brinjal",
+                    "image" : "https://toppng.com/uploads/preview/brinjal-eggplant-11528342602iyanjofhed.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalVegs",
+                    "isStockAvailable":0
+                  },
+      
+
+
+                {
+                  "id":42,
+                  "name" : "Garlic Peeled",
+                  "image" : "https://toppng.com/uploads/preview/peeled-garlic-cloves-11528329724ufwsa2xhda.png",
+                  "quantity":"1 kg",
+                  "price" : 35,
+                  "offer":13,
+                  "type":"freshCutSprouts",
+                  "isStockAvailable":6
+                },
+                {
+                    "id":43,
+                    "name" : "Green Moong Sprouts",
+                    "image" : "https://w7.pngwing.com/pngs/332/923/png-transparent-sprouting-soybean-sprout-organic-food-mung-bean-mung-daal-food-adzuki-bean-fruit-thumbnail.png",
+                    "quantity":"500 g",
+                    "price" : 0,
+                    "offer":13,
+                    "type":"freshCutSprouts",
+                    "isStockAvailable":5
+                  },
+                  {
+                    "id":44,
+                    "name" : "Ash Gourd Portion",
+                    "image" : "https://www.kindpng.com/picc/m/474-4746477_winter-melon-png-image-ash-gourd-png-transparent.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"freshCutSprouts",
+                    "isStockAvailable":6
+                  },
+               
+                  {
+                    "id":47,
+                    "name" : "Papaya Cut",
+                    "image" : "https://www.kindpng.com/picc/m/144-1440605_half-cut-papaya-png-image-transparent-png.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"freshCutSprouts",
+                    "isStockAvailable":0
+                  },
+               
+                
+                  {
+                    "id":48,
+                    "name" : "Pumpkin Cut",
+                    "image" : "https://www.nicepng.com/png/detail/888-8884807_grey-pumpkin-cut-raw-pumpkin.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"freshCutSprouts",
+                    "isStockAvailable":0
+                  },
+               
+                  {
+                    "id":30,
+                    "name" : "Ratnagiri Alphonso Mango",
+                    "image" : "https://www.kindpng.com/picc/m/174-1749685_transparent-mango-clipart-ratnagiri-alphonso-mango-png-png.png",
+                    "quantity":"500 g",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"seasonalFruit",
+                    "isStockAvailable":7
+                  },
+                  {
+                    "id":45,
+                    "name" : "Brown Chana Sprouts",
+                    "image" : "https://aapkiidukaan.com/wp-content/uploads/2020/10/Sprouts-Channa-Brown-Chickpea.png",
+                    "quantity":"1 kg",
+                    "price" : 35,
+                    "offer":13,
+                    "type":"freshCutSprouts",
+                    "isStockAvailable":3
+                  },
+                  {
+                    "id":10,
+                    "name" : "Banana",
+                    "image" : "https://purepng.com/public/uploads/large/purepng.com-bananabananabotanically-a-berryplantainsdessert-bananas-1701527188250nn3rh.png",
+                    "quantity":"1 kg",
+                    "price" : 12,
+                    "offer":20,
+                    "type":"fruit",
+                    "isStockAvailable":1
+                  }
+        ]
+    }
