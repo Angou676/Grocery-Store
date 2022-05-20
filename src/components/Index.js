@@ -2,10 +2,12 @@ import React,{useState,useEffect} from 'react'
 import styled from 'styled-components';
 import axios from "axios";
 import ProductListing from './ProductListing';
+import HeaderComponent from './HeaderComponent';
+import ViewCart from './ViewCart';
 
 const MainContainerBlock = styled.div`
   width:90%;
-  margin:auto;
+  margin:61px auto 60px auto;
   height:max-content;
  
   @media (min-width: 900px) and (max-width: 1320px){
@@ -24,19 +26,16 @@ const MainContainerBlock = styled.div`
     width:100%;
   } 
 `
-const HeaderBlock = styled.div`
-    font-size:20px;
-    font-weight:600;
-    background-color:green;
-    height:30px;
-    color:white;
-    text-align:center;
-    align-items:center;
-    width:100%;
+const FooterBlock = styled.div`
+  position: fixed;
+  bottom: 2px;
+  height: 45px;
+  width:100%;
 `
 
 function Index() {
   const [groceryItemsList,setGroceryItemList] = useState([]);
+  const [selectItem,setSelectItem] = useState([]);
 
   //Fetching from API
   useEffect(()=>{
@@ -46,12 +45,23 @@ function Index() {
     })
   },[])
 
+
+  //Select Item functions
+  const getSelectedItem = (getItem) =>{
+    setSelectItem(selectItem => [...selectItem, groceryItemsList.filter(val => val.id === getItem)])
+  }
+  console.log("get",selectItem.length)
+
   return (
     <>
-      {/* <HeaderBlock>Online Grocery Shop</HeaderBlock> */}
+      <HeaderComponent/>
       <MainContainerBlock>
-            <ProductListing groceryItemsList={groceryItemsList}/>
+            <ProductListing groceryItemsList={groceryItemsList} getSelectedItem={getSelectedItem}/>
       </MainContainerBlock>
+      <FooterBlock >
+        <ViewCart selecteditem={selectItem.length}/>
+      </FooterBlock>
+      
     </>
   );
 }
