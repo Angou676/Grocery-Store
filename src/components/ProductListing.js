@@ -117,7 +117,7 @@ const ProductListing = (props) => {
                 allProductListHandler()
                 }} > 
              <GroceryTabButton>
-                <img className="cateSlectimageBlock" alt='image' src='https://www.freepnglogos.com/uploads/vegetables-png/air-cargo-agent-mangalore-fresh-vegetables-fruits-27.png'  />
+                <img className="cateSlectimageBlock" alt='products' src='https://www.freepnglogos.com/uploads/vegetables-png/air-cargo-agent-mangalore-fresh-vegetables-fruits-27.png'  />
                 </GroceryTabButton> 
                 <GroceryTabText className={value === 0 ? 'tabActive' : null}>All Grocery<br/> Items</GroceryTabText>  
             </GroceryTabBlock>
@@ -130,7 +130,7 @@ const ProductListing = (props) => {
                 vegFilterHandler()
             }}>
             <GroceryTabButton>
-                    <img className="cateSlectimageBlock" alt='image' src='https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png' width="100" height="80" />
+                    <img className="cateSlectimageBlock" alt='products' src='https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png' width="100" height="80" />
                </GroceryTabButton> 
                <GroceryTabText className={value === 1 ? 'tabActive' : null}>Vegetables</GroceryTabText>
             </GroceryTabBlock>
@@ -142,7 +142,7 @@ const ProductListing = (props) => {
                 fruitFilterHandler()
                 }} >
                <GroceryTabButton>
-               <img className="cateSlectimageBlock" alt='image' src='https://toppng.com/uploads/preview/apple-fruit-11526067113bpkdzjmq8g.png' width="100" height="80" />
+               <img className="cateSlectimageBlock" alt='products' src='https://toppng.com/uploads/preview/apple-fruit-11526067113bpkdzjmq8g.png' width="100" height="80" />
                </GroceryTabButton> 
                <GroceryTabText className={value === 2 ? 'tabActive' : null}>Fruits</GroceryTabText>
             </GroceryTabBlock>
@@ -154,7 +154,7 @@ const ProductListing = (props) => {
                 exoticPremiumFilterHandler()
                 }} > 
                 <GroceryTabButton>
-                <img className="cateSlectimageBlock" alt='image' src='https://mangobazaar.in/image/cache/catalog/Exotic%20vegetables/chinese%20cabbage-600x600.png' width="100" height="80" />
+                <img className="cateSlectimageBlock" alt='products' src='https://mangobazaar.in/image/cache/catalog/Exotic%20vegetables/chinese%20cabbage-600x600.png' width="100" height="80" />
                </GroceryTabButton> 
                <GroceryTabText className={value === 3 ? 'tabActive' : null}>Exotic &<br/> Premium</GroceryTabText>
             </GroceryTabBlock>
@@ -166,7 +166,7 @@ const ProductListing = (props) => {
                 organicFilterHandler()
                 }} > 
              <GroceryTabButton>
-                <img className="cateSlectimageBlock" alt='image' src='https://www.dlf.pt/dfpng/middlepng/117-1174168_broccoli-organic-food-cauliflower-vegetable-broccoli-png-transparent.png' width="100" height="80" />
+                <img className="cateSlectimageBlock" alt='products' src='https://www.dlf.pt/dfpng/middlepng/117-1174168_broccoli-organic-food-cauliflower-vegetable-broccoli-png-transparent.png' width="100" height="80" />
                </GroceryTabButton> 
             <GroceryTabText className={value === 4 ? 'tabActive' : null}>Organic &<br/> Hydroponic</GroceryTabText>
             </GroceryTabBlock>
@@ -178,7 +178,7 @@ const ProductListing = (props) => {
                 seaFruitFilterHandler()
                 }} > 
             <GroceryTabButton>
-            <img className="cateSlectimageBlock" alt='image' src='https://pngimg.com/uploads/mango/mango_PNG9163.png' width="100" height="80" />
+            <img className="cateSlectimageBlock" alt='products' src='https://pngimg.com/uploads/mango/mango_PNG9163.png' width="100" height="80" />
                </GroceryTabButton> 
             <GroceryTabText className={value === 5 ? 'tabActive' : null}>Seasonal<br/> Fruits</GroceryTabText>
             </GroceryTabBlock>
@@ -190,7 +190,7 @@ const ProductListing = (props) => {
                 seaVegFilterHandler()
                 }} > 
             <GroceryTabButton>
-            <img className="cateSlectimageBlock" alt='image' src='https://w7.pngwing.com/pngs/609/33/png-transparent-calabash-gourd-cucurbitaceae-vegetable-bitter-melon-vegetable-wish-food-gourd-thumbnail.png' width="100" height="80" />
+            <img className="cateSlectimageBlock" alt='products' src='https://w7.pngwing.com/pngs/609/33/png-transparent-calabash-gourd-cucurbitaceae-vegetable-bitter-melon-vegetable-wish-food-gourd-thumbnail.png' width="100" height="80" />
                </GroceryTabButton> 
             <GroceryTabText className={value === 6 ? 'tabActive' : null}>Seasonal<br/> Veg</GroceryTabText>
             </GroceryTabBlock>
@@ -202,7 +202,7 @@ const ProductListing = (props) => {
                 freshCutFilterHandler()
                 }} > 
              <GroceryTabButton>
-             <img className="cateSlectimageBlock" alt='image' src='https://w7.pngwing.com/pngs/532/449/png-transparent-cruciferous-vegetables-cabbage-vegetarian-cuisine-cabbage-cut-material-leaf-vegetable-food-cooking.png' width="100" height="80" />
+             <img className="cateSlectimageBlock" alt='products' src='https://w7.pngwing.com/pngs/532/449/png-transparent-cruciferous-vegetables-cabbage-vegetarian-cuisine-cabbage-cut-material-leaf-vegetable-food-cooking.png' width="100" height="80" />
                </GroceryTabButton> 
             <GroceryTabText className={value === 7 ? 'tabActive' : null}>Freshly Cut<br/>  & Sprouts</GroceryTabText>
             </GroceryTabBlock>
@@ -225,7 +225,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="60%" />
+                                    <img alt='products' src={item.image} width="60%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -262,7 +262,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -299,7 +299,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -335,7 +335,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -371,7 +371,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -407,7 +407,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -443,7 +443,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img alt='image' src={item.image} width="70%" />
+                                    <img alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>
@@ -479,7 +479,7 @@ const ProductListing = (props) => {
                                 <ImageBlock>
                                     {item.isStockAvailable === 0 ?
                                     <OutOfStockBlock>{item.isStockAvailable === 0 ?  "out of stock" : ""}</OutOfStockBlock> : ""}
-                                    <img  alt='image'src={item.image} width="70%" />
+                                    <img  alt='products' src={item.image} width="70%" />
                                 </ImageBlock>
                             </ImageListingBlock>
                             <ItemNameBlock>{item.name}</ItemNameBlock>

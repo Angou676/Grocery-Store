@@ -104,7 +104,6 @@ const HeaderComponent = () => {
                 <MajorTextBlock>
                     <MainText>Vegetables & Fruits</MainText>
                     <SubText>see all categories <KeyboardArrowDownIcon/></SubText>
-
                 </MajorTextBlock>
             </HeadingSubBlock>
             <SearchIconBlock>

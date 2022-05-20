@@ -50,7 +50,6 @@ function Index() {
   const getSelectedItem = (getItem) =>{
     setSelectItem(selectItem => [...selectItem, groceryItemsList.filter(val => val.id === getItem)])
   }
-  console.log("get",selectItem.length)
 
   return (
     <>
